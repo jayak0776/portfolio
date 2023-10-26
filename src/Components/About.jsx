@@ -210,7 +210,7 @@ function About() {
           </div>
         </div>
         <div
-          className="w-full h-[90vh] bg-white dark:text-slate-400 dark:bg-gray-900 md:pb-32"
+          className="w-full h-full bg-white dark:text-slate-400 dark:bg-gray-900 md:pb-32"
           name="About"
         >
           <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full ">
