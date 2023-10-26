@@ -5,7 +5,6 @@ import react from "../assests/react.png";
 import tailwind from "../assests/tailwind.png";
 import bootstrap from "../assests/bootstrap.png";
 import github from "../assests/github.png";
-import node from "../assests/node.png";
 import React, { useRef, useState } from "react";
 import { CiMobile3 } from "react-icons/ci";
 import {
@@ -175,7 +174,7 @@ function Experience() {
         </div>
       </div>
       <div
-        className="w-full h-[90vh] bg-white dark:text-slate-400 dark:bg-gray-900 md:pb-32"
+        className="w-full h-full bg-white dark:text-slate-400 dark:bg-gray-900 md:pb-32"
         name="About"
       >
         <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full ">
