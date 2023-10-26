@@ -25,6 +25,10 @@ import c2 from "./img/Cal/c2.png";
 import c3 from "./img/Cal/c3.png";
 import c4 from "./img/Cal/c4.png";
 import a1 from "./img/a1 (2).png";
+import l1 from "./img/Port/l1.png";
+import l2 from "./img/Port/l2.png";
+import l3 from "./img/Port/l3.png";
+import l4 from "./img/Port/l4.png";
 
 import { BsArrowLeft } from "react-icons/bs";
 import { HiOutlineExternalLink } from "react-icons/hi";
@@ -33,6 +37,28 @@ import { useParams } from "react-router-dom";
 const ProjectData = [
   {
     id: 1,
+    title: "PORTFOLIO",
+    description:
+      "For this project, I chose to use React as the core technology for building my portfolio. React's component-based architecture allowed me to create a dynamic and responsive user interface. Each section of my portfolio is encapsulated within React components, making it easy to manage and update my content.",
+    tools: [
+      {
+        t1: "React",
+        t2: "Tailwind",
+      },
+    ],
+    gallery: [
+      {
+        main: l1,
+        m2: l2,
+        m3: l3,
+        m4: l4,
+      },
+    ],
+    demo: "https://jkumar-netfilx.netlify.app/",
+    code: "https://github.com/jayak0776/Netflix",
+  },
+  {
+    id: 2,
     title: "NETFLIX CLONE",
     description:
       "Welcome to my Netflix Clone project, a testament to my web development skills using HTML, CSS, and JavaScript. As a web developer, I enjoy creating immersive and user-friendly web applications, and the Netflix Clone is a shining example of that passion. This project is a tribute to the popular streaming service, Netflix, where I've recreated its visual and interactive elements, giving users a taste of what it's like to navigate and explore their favorite movies and TV shows. With careful attention to detail and a responsive design, I've aimed to provide an authentic user experience that adapts seamlessly to various screen sizes. Explore the Netflix Clone and discover my commitment to crafting captivating and responsive web applications.",
@@ -55,7 +81,7 @@ const ProjectData = [
     code: "https://github.com/jayak0776/Netflix",
   },
   {
-    id: 2,
+    id: 3,
     title: "TODO LIST",
     description:
       "Welcome to my Todo List project, a testament to my web development skills using HTML, CSS, and JavaScript, with a strong emphasis on responsiveness. As a web developer, I'm dedicated to crafting user-friendly and adaptable web applications. This project is all about task management, allowing users to create, edit, complete, and delete tasks with ease. What sets this project apart is its responsiveness. No matter what device you're using, whether it's a desktop, tablet, or smartphone, the Todo List application provides a seamless and intuitive user experience. Explore the project to witness how I combine practical functionality with responsive design, making it a valuable tool for organizing tasks on the go.",
@@ -78,7 +104,7 @@ const ProjectData = [
     code: "https://github.com/jayak0776/Task",
   },
   {
-    id: 3,
+    id: 4,
     title: "FAQ",
     description:
       "Welcome to my FAQ Page project, an example of my web development skills using HTML, CSS, and JavaScript, with a strong emphasis on responsiveness. As a web developer, I take pride in creating informative and accessible web content. This project is designed to provide clear and concise answers to commonly asked questions on a specific topic or service. What sets this project apart is its responsiveness, ensuring that users can easily find the information they need on various devices, from desktops to tablets and smartphones. Whether you're seeking answers on a larger screen or on the go, the FAQ Page adapts to provide an optimal user experience. Explore the project to see how I combine information and responsive design, making it a valuable resource for users on all devices.",
@@ -101,7 +127,7 @@ const ProjectData = [
     code: "https://github.com/jayak0776/FAQ",
   },
   {
-    id: 4,
+    id: 5,
     title: "STOPWATCH",
     description:
       "Welcome to my Stopwatch project, a testament to my web development skills using HTML, CSS, and JavaScript, with a strong focus on responsiveness. As a web developer, I'm committed to creating interactive and user-friendly web applications. The Stopwatch project is a handy timekeeping tool that allows users to start, stop, and reset the timer. What makes this project special is its responsiveness – it's designed to work flawlessly on various devices, from desktop computers to tablets and smartphones. Whether you need a stopwatch for work, exercise, or any other purpose, this application ensures a seamless and adaptive user experience. Explore the project to witness how I blend functionality with responsive design, making it a versatile tool for tracking time wherever you are.",
@@ -124,7 +150,7 @@ const ProjectData = [
     code: "https://github.com/jayak0776/stopwatch",
   },
   {
-    id: 5,
+    id: 6,
     title: "QUOTE GENERATOR",
     description:
       "Welcome to my Quote Generator project, a showcase of my web development skills using HTML, CSS, and JavaScript, with a strong focus on responsiveness. As a web developer, I'm dedicated to creating engaging and accessible web applications. This project, in particular, is designed to generate random quotes and inspire users. It's not only informative but also responsive, ensuring that users can enjoy inspirational quotes on various devices and screen sizes. Whether you're on a desktop, tablet, or smartphone, the Quote Generator adapts seamlessly to provide an excellent user experience. Explore the project to see how I blend functionality and responsive design to create an appealing web application.",
@@ -147,7 +173,7 @@ const ProjectData = [
     code: "https://github.com/jayak0776/QuoteGenerator",
   },
   {
-    id: 6,
+    id: 7,
     title: "CALCULATOR REACT",
     description:
       "Welcome to my React Calculator project, a showcase of my web development skills using the React framework, with a strong emphasis on responsiveness. As a web developer, I'm committed to creating dynamic and user-friendly web applications. The React Calculator project takes the basic calculator to the next level by leveraging the power of React to deliver a more interactive and responsive user experience. Whether you're performing complex mathematical operations or simple calculations, this calculator adapts seamlessly to various devices, from desktops to tablets and smartphones. Explore the project to witness how I blend the capabilities of React with responsive design, making it a versatile and adaptive tool for users on all devices.",
@@ -169,7 +195,7 @@ const ProjectData = [
     code: "https://github.com/jayak0776/Calculator_React",
   },
   {
-    id: 7,
+    id: 8,
     title: "CALCULATOR",
     description:
       "Welcome to my Calculator project, a testament to my web development skills using HTML, CSS, and JavaScript, with a strong focus on responsiveness. As a web developer, I'm dedicated to creating practical and user-friendly web applications. The Calculator project is a fundamental tool for performing arithmetic operations, and it's designed to be both functional and responsive. No matter what device you're using, be it a desktop, tablet, or smartphone, this calculator adapts seamlessly to provide an excellent user experience. Whether you're solving complex math problems or simple calculations, the responsive design ensures that the calculator is at your fingertips wherever you are. Explore the project to see how I combine functionality with responsive design, making it a versatile and accessible tool for users on all devices.",

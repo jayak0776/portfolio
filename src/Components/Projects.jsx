@@ -5,6 +5,7 @@ import p4 from "../assests/projects/p4.png";
 import p5 from "../assests/projects/p5.png";
 import p1 from "../assests/projects/p1.png";
 import p6 from "../assests/projects/p6.png";
+import p8 from "../assests/projects/p8.png";
 import { NavLink } from "react-router-dom";
 import { HiOutlineExternalLink } from "react-icons/hi";
 import React, { useRef, useState } from "react";
@@ -22,6 +23,19 @@ function Projects() {
   const projects = [
     {
       id: 1,
+      title: "PORTFOLIO",
+      src: p8,
+      demo: "https://jayakumargubbala-portfolio.netlify.app/",
+      code: "https://github.com/jayak0776/portfolio",
+      tools: [
+        {
+          t1: "React",
+          t2: "Tailwind",
+        },
+      ],
+    },
+    {
+      id: 2,
       title: "NETFLIX",
       src: p7,
       demo: "https://jayak0776.github.io/Netflix/home.html",
@@ -35,7 +49,7 @@ function Projects() {
       ],
     },
     {
-      id: 2,
+      id: 3,
       title: "TODO LIST",
       src: p2,
       demo: "https://jkumar-todo-list.netlify.app/task",
@@ -49,7 +63,7 @@ function Projects() {
       ],
     },
     {
-      id: 3,
+      id: 4,
       title: "FAQ",
       src: p3,
       demo: "https://jkumar-faq.netlify.app/faq/faq",
@@ -63,7 +77,7 @@ function Projects() {
       ],
     },
     {
-      id: 4,
+      id: 5,
       title: "STOPWATCH",
       src: p4,
       demo: "https://jkumar-stopwatch.netlify.app/stopwatch.html",
@@ -77,7 +91,7 @@ function Projects() {
       ],
     },
     {
-      id: 5,
+      id: 6,
       title: "QUOTE GENERATER",
       src: p5,
       demo: "https://jkumar-quote-generated.netlify.app/quote.html",
@@ -91,7 +105,7 @@ function Projects() {
       ],
     },
     {
-      id: 6,
+      id: 7,
       title: "CALCULATOR",
       src: p1,
       demo: "https://jayak0776.github.io/Calculator_React/",
@@ -104,7 +118,7 @@ function Projects() {
       ],
     },
     {
-      id: 7,
+      id: 8,
       title: "CALCULATOR",
       src: p6,
       demo: "https://jkumar-calculator.netlify.app/",
