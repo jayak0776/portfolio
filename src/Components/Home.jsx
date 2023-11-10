@@ -244,7 +244,7 @@ function Home() {
               </p>
             </div>
           </div>
-          <div className=" grid sm:grid-cols-2 md:grid-cols-2 gap-20 px-12 pl-8 md:pl-12 mb-32 sm:px-12 sm:pb-5 sm:mb-0 ">
+          <div className="w-full grid sm:grid-cols-2 md:grid-cols-2 gap-20 px-12 pl-8 md:pl-12 mb-32 sm:px-12 sm:pb-5 sm:mb-0 ">
             {projects.map(({ id, src, demo, code, title, tools }) => (
               <div
                 key={id}
