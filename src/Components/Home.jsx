@@ -1,4 +1,6 @@
 import React, { useRef, useState } from "react";
+import { motion } from "framer-motion";
+import { fadeIn } from "../Varient";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import Mypic from "../assests/Online resume-pana (3).png";
 import css from "../assests/css.png";
@@ -138,20 +140,25 @@ function Home() {
     <>
       <div className="w-full h-full lg:h-screen md:h-screen bg-[#7395AE] dark:text-slate-400 dark:bg-gray-900">
         <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-center h-full px-4">
-          <div className="flex flex-col  justify-center sm:w-[50%] mt-32 md:mt-20 mb-4 sm:mt-28 sm:mb-0 shadow-2xl rounded-xl shadow-slate-800 p-10 h-[400px] md:h-[450px] lg:h-[450px] ">
-            <h1 className="text-xl sm:text-6xl font-bold text-[#242424]">
+          <div className="flex flex-col  justify-center sm:w-[60%] mt-32 md:mt-20 mb-4 sm:mt-28 sm:mb-0 shadow-2xl rounded-xl shadow-slate-800 p-10 h-[580px] md:h-[580px] lg:h-[450px] ">
+            <h1 className="text-2xl sm:text-4xl font-bold text-[#242424]">
               <span className="p-2">HELLO</span>
               <br />
               <span className="p-2">EVERYONE!</span>
             </h1>
-            <br />
-            <p className="text-[#011425] dark:text-slate-400  text-xl max-w-md pt-0 py-6 font-medium">
-              I'm Gubbala Jaya Kumar,I am Front-End Web Developer. It's been 2
-              years, I'm working as a web developer. I have developed some
-              website and also i'm very passionate to learn new tools.
+            {/* <br /> */}
+            <p className="text-[#011425] dark:text-slate-400 my-3 text-lg max-w-md pt-0 py-3 font-medium">
+              I am Gubbala Jaya Kumar, a final year student pursuing B.Tech in
+              Information Technology at Pragati Engineering College. With a
+              passion for programming and technology, I specialize in Java,
+              Python, and C programming languages. My proficiency extends to
+              cloud computing with AWS and ServiceNow certification. On the web
+              development front, I excel in HTML, CSS, JavaScript, React, SQL,
+              and Tailwind CSS, enabling me to create dynamic and responsive web
+              applications.
             </p>
             <div>
-              <button className="group text-center text-lg lg:text-2xl text-white dark:text-slate-400 w-fit px-4 py-2 lg:px-6 lg:py-3 lg:my-2 flex items-center rounded-md bg-[#242424] cursor-pointer">
+              <button className="group text-center text-lg lg:text-2xl text-white dark:text-slate-400 w-fit px-4 py-2 lg:px-3 lg:py-3 lg:my-1 flex items-center rounded-md bg-[#242424] cursor-pointer">
                 Portfolio
                 <span className="group-hover:rotate-90 duration-300">
                   <HiArrowNarrowRight className="ml-1" />
@@ -172,26 +179,32 @@ function Home() {
         className="w-full h-full bg-white dark:text-slate-400 dark:bg-gray-900 md:pb-32 pb-10"
         name="About"
       >
-        <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full ">
-          <div className="pb-0 mt-28 sm:mt-28 sm:p-0 ">
+        <div className="max-w-screen-lg mx-auto mb:0 flex flex-col justify-center w-full h-full ">
+          <div className="pb-0 mt-4 sm:mt-2 sm:p-0 ">
             <div className="p-6 sm-p-0">
               <p className="text-[#242424] dark:text-gray-300 text-4xl ml-2 font-medium inline ">
-                About Me
+                Professional Summary
               </p>
             </div>
           </div>
-          <p className="text-2xl p-12 dark:text-slate-400 text-[#011425] font-normal sm:p-12 sm:mb-0">
-            Greetings! I'm Gubbala Jaya Kumar, a dedicated Front End Developer
-            with a passion for creating seamless, visually appealing user
-            interfaces. My journey in the world of web development began with an
-            insatiable curiosity for crafting engaging digital experiences. Over
-            the years, I've honed my skills in HTML5, CSS3, and JavaScript,
-            channeling my creativity into designs that captivate and inspire. My
-            dedication to the art of Front End development drives me to
-            constantly seek growth and improvement. While I excel in creating
-            beautiful and functional interfaces, I understand that true mastery
-            lies in a comprehensive understanding of the entire web development
-            ecosystem.
+          <p className="text-lg px-8 pb-0 dark:text-slate-400 text-[#011425] font-normal sm:p-12 sm:mb-0 mb-0">
+            I am Gubbala Jaya Kumar, a final year student pursuing B.Tech in
+            Information Technology at Pragati Engineering College. With a
+            passion for programming and technology, I specialize in Java,
+            Python, and C programming languages. My proficiency extends to cloud
+            computing with AWS and ServiceNow certification. On the web
+            development front, I excel in HTML, CSS, JavaScript, React, SQL, and
+            Tailwind CSS, enabling me to create dynamic and responsive web
+            applications.
+          </p>
+          <p className="text-lg p-8 pb-0 dark:text-slate-400 text-[#011425] font-normal sm:p-12 sm:mb-0">
+            I am dedicated to continuous learning and growth in the field of IT,
+            eager to leverage my skills and knowledge in real-world scenarios.
+            Through academic projects and hands-on experience, I have developed
+            a strong foundation in software development principles and cloud
+            infrastructure management. I am enthusiastic about tackling new
+            challenges and contributing to innovative projects that drive
+            technological advancements.
           </p>
         </div>
         <button className="text-white dark:text-slate-400 bg-[#242424] px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300 font-light text-lg">
@@ -203,29 +216,56 @@ function Home() {
         name="About"
       >
         <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full ">
-          <div className="pb-0 mt-10 sm:mt-28 sm:p-0 ">
+          <div className="pb-0 mt-0 sm:mt-0 sm:p-0 ">
             <div className="p-6 sm-p-0">
               <p className="text-[#242424] dark:text-gray-300 text-4xl ml-2 font-medium inline ">
                 Experience
               </p>
-              <p className="text-2xl p-12 dark:text-slate-400 text-[#011425] font-normal sm:p-12 sm:mb-0">
-                These are the technologies I've worked with
+              <p className="text-lg p-3 pb-3 dark:text-slate-400 text-[#011425] font-normal sm:p-12 sm:mb-0">
+                Over the course of my academic career, I have developed a strong
+                foundation in various programming languages and frameworks,
+                which I have applied to several impactful projects. My
+                proficiency in Java and Python has enabled me to create robust
+                and efficient applications, such as an ATM machine and a
+                calculator, both of which leverage complex algorithms and secure
+                transaction handling. Additionally, I have utilized Python to
+                develop a shopping application, which integrates seamlessly with
+                a SQL/NoSQL database, demonstrating my ability to manage and
+                manipulate data effectively. My experience with C programming
+                has further honed my skills in system-level programming,
+                allowing me to understand the intricacies of low-level
+                operations.
+              </p>
+              <p className="text-lg p-3 pt-0 dark:text-slate-400 text-[#011425] font-normal sm:p-12 sm:mb-0">
+                In the realm of web development, I have mastered HTML5, CSS3,
+                and JavaScript, using these technologies to build dynamic and
+                responsive web applications. My proficiency with React has been
+                pivotal in creating interactive user interfaces for projects
+                like the tic-tac-toe game and quote generator, where I
+                implemented component-based architectures for enhanced
+                functionality. I have also employed Tailwind CSS to streamline
+                the styling process, ensuring consistency and maintainability
+                across my projects. My cloud computing skills, bolstered by AWS
+                and ServiceNow certifications, have empowered me to deploy and
+                manage scalable cloud-based solutions, further demonstrating my
+                versatility and commitment to leveraging modern technologies to
+                solve real-world problems.
               </p>
             </div>
           </div>
-          <div className="w-full grid grid-cols-2 p-12  sm:grid-cols-3 gap-10 text-center py-0 mb-0 px-30 sm:mb-14">
+          <div className="w-full grid grid-cols-3 p-12  sm:grid-cols-3 gap-10 text-center py-0 mb-0 px-12 sm:mb-14">
             {experience.map(({ id, src, title, style }) => (
               <div
                 key={id}
-                className={`bg-[#7395AE] dark:bg-slate-800 shadow-md hover:scale-105 duration-500 py-5  rounded-md ${style}`}
+                className={`bg-[#7395AE] dark:bg-slate-800 shadow-md hover:scale-105 duration-500 py-4  rounded-md ${style} lg:p-5 px-0`}
               >
-                <img src={src} alt="" className="w-20 mx-auto" />
-                <p className="mt-4 text-xl">{title}</p>
+                <img src={src} alt="" className="w-10 mx-auto lg:w-20" />
+                <p className="mt-4 text-xs lg:text-xl">{title}</p>
               </div>
             ))}
           </div>
         </div>
-        <button className="text-white dark:text-slate-400 bg-[#242424] px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300 font-light text-lg">
+        <button className="text-white dark:text-slate-400 bg-[#242424] px-4 py-2 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300 font-light text-lg">
           <NavLink to={"/Experience"}>Know More</NavLink>
         </button>
       </div>
@@ -233,18 +273,18 @@ function Home() {
         className="w-full h-full bg-white dark:text-slate-400 dark:bg-gray-900 md:pb-32 pb-10"
         name="About"
       >
-        <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full ">
-          <div className="pb-0 mt-28 sm:mt-28 sm:p-0 ">
+        <div className="max-w-screen-lg mx-auto mb-0 flex flex-col justify-center w-full h-full ">
+          <div className="pb-0  sm:p-0 ">
             <div className="p-6 sm-p-0">
-              <p className="text-[#242424] dark:text-gray-300 text-4xl ml-2 font-medium inline ">
+              <p className="text-[#242424] dark:text-gray-300 text-3xl ml-0 font-medium inline ">
                 Projects
               </p>
-              <p className="text-2xl p-12 dark:text-slate-400 text-[#011425] font-normal sm:p-12 sm:mb-0">
+              <p className="text-xl p-3 dark:text-slate-400 text-[#011425] font-normal sm:p-12 sm:mb-0">
                 Check out some of my work right here
               </p>
             </div>
           </div>
-          <div className="w-full grid sm:grid-cols-2 md:grid-cols-2 gap-20 px-12 pl-8 md:pl-12 mb-32 sm:px-12 sm:pb-5 sm:mb-0 ">
+          <div className="w-full grid sm:grid-cols-2 md:grid-cols-2 gap-20 px-12 pl-8 md:pl-12 mb-10 md:mb-20 sm:px-12 sm:pb-5 sm:mb-0 ">
             {projects.map(({ id, src, demo, code, title, tools }) => (
               <div
                 key={id}
@@ -260,7 +300,7 @@ function Home() {
                 <h1 className="text-center text-[#7395AE] p-5 text-2xl capitalize">
                   {title}
                 </h1>
-                <div className="text-white text-lg mb-6">
+                <div className="text-white text-sm mb-3">
                   {tools.map((tool, index) => (
                     <div key={index} className="flex justify-center px-10">
                       {Object.keys(tool).map((key) => (
@@ -318,7 +358,7 @@ function Home() {
             ))}
           </div>
         </div>
-        <button className="text-white dark:text-slate-400 bg-[#242424] px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300 font-light text-lg">
+        <button className="text-white dark:text-slate-400 bg-[#242424] px-6 py-3 my-0 mx-auto flex items-center rounded-md hover:scale-110 duration-300 font-light text-lg">
           <NavLink to={"/Projects"}>Know More</NavLink>
         </button>
       </div>
@@ -327,11 +367,11 @@ function Home() {
         name="About"
       >
         <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full ">
-          <div className="pb-0 mt-28 sm:mt-28 sm:p-0 ">
+          <div className="pb-0 mt-10 sm:mt-0 sm:p-0 ">
             <p className="text-center dark:text-[#d3d3d3] underline font-medium">
               Contact Me
             </p>
-            <div className="lg:flex lg:justify-between lg:p-20 p-10 md:flex md:justify-between md:p-14">
+            <div className="lg:flex lg:justify-between lg:p-20 p-6 md:flex md:justify-between md:p-6">
               <div className=" lg:flex-col lg:w-96 md:w-72 w-full ">
                 <p className="px-4 py-3 text-base flex items-center lg:px-6 lg:pl-0  lg:py-3 lg:flex lg:items-center font-light text-[#242424] bg-[#d7d7d7] my-7 mt-5 rounded-sm cursor-pointer">
                   <span className="pr-2 lg:px-3">
