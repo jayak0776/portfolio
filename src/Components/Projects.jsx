@@ -172,16 +172,16 @@ function Projects() {
   return (
     <>
       <div
-        className="w-full h-full bg-white dark:text-slate-400 dark:bg-gray-900 md:pb-32"
+        className="w-full h-full bg-white dark:text-slate-400 dark:bg-gray-900 md:pb-22"
         name="About"
       >
         <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full ">
-          <div className="pb-0 mt-28 sm:mt-28 sm:p-0 ">
+          <div className="pb-0 mt-20 sm:mt-28 sm:p-0 ">
             <div className="p-6 sm-p-0">
               <p className="text-[#242424] dark:text-gray-300 text-4xl ml-2 font-medium inline ">
                 Projects
               </p>
-              <p className="text-2xl p-12 pl-6 md:pl-12 dark:text-slate-400  text-[#011425] font-normal sm:p-6 sm:mb-0">
+              <p className="text-lg p-3 dark:text-slate-400  text-[#011425] font-normal sm:p-6 sm:mb-0">
                 "Hello! I'm a web developer with a passion for creating
                 interactive and visually appealing web applications. I've had
                 the opportunity to work on several exciting projects that
@@ -195,7 +195,7 @@ function Projects() {
                 versatility and creativity that I bring to web development."
               </p>
 
-              <p className="text-2xl p-12 pl-6 md:pl-12 dark:text-slate-400  text-[#011425] font-semibold sm:p-6 sm:mb-0">
+              <p className="text-lg p-3  dark:text-slate-400  text-[#011425] font-semibold sm:p-6 sm:mb-0">
                 1. Quote Generator:
                 <li className="font-normal pt-3">
                   The Quote Generator is a web application designed to provide
@@ -206,7 +206,7 @@ function Projects() {
                   their favorites.
                 </li>
               </p>
-              <p className="text-2xl p-12 pl-6 md:pl-12 dark:text-slate-400  text-[#011425] font-semibold sm:p-6 sm:mb-0">
+              <p className="text-lg p-3  dark:text-slate-400  text-[#011425] font-semibold sm:p-6 sm:mb-0">
                 2. Stopwatch:
                 <li className="font-normal pt-3">
                   The Stopwatch project is an online timer application. It
@@ -216,7 +216,7 @@ function Projects() {
                   making it a practical tool for various tasks.
                 </li>
               </p>
-              <p className="text-2xl p-12 pl-6 md:pl-12 dark:text-slate-400  text-[#011425] font-semibold sm:p-6 sm:mb-0">
+              <p className="text-lg p-3  dark:text-slate-400  text-[#011425] font-semibold sm:p-6 sm:mb-0">
                 3. FAQ Page:
                 <li className="font-normal pt-3">
                   An FAQ (Frequently Asked Questions) page is a common component
@@ -227,7 +227,7 @@ function Projects() {
                   information.
                 </li>
               </p>
-              <p className="text-2xl p-12 pl-6 md:pl-12 dark:text-slate-400  text-[#011425] font-semibold sm:p-6 sm:mb-0">
+              <p className="text-lg p-3  dark:text-slate-400  text-[#011425] font-semibold sm:p-6 sm:mb-0">
                 4. Todo List:
                 <li className="font-normal pt-3">
                   The Todo List project is a task management application that
@@ -237,7 +237,7 @@ function Projects() {
                   applications with HTML, CSS, and JavaScript.
                 </li>
               </p>
-              <p className="text-2xl p-12 pl-6 md:pl-12 dark:text-slate-400  text-[#011425] font-semibold sm:p-6 sm:mb-0">
+              <p className="text-lg p-3  dark:text-slate-400  text-[#011425] font-semibold sm:p-6 sm:mb-0">
                 5. Calculator:
                 <li className="font-normal pt-3">
                   The Calculator is a fundamental web-based tool for performing
@@ -247,7 +247,7 @@ function Projects() {
                   user-friendly calculator interface.
                 </li>
               </p>
-              <p className="text-2xl p-12 pl-6 md:pl-12 dark:text-slate-400  text-[#011425] font-semibold sm:p-6 sm:mb-0">
+              <p className="text-lg p-3  dark:text-slate-400  text-[#011425] font-semibold sm:p-6 sm:mb-0">
                 6. React Calculator:
                 <li className="font-normal pt-3">
                   Building on the basic calculator, the React Calculator project
@@ -258,7 +258,7 @@ function Projects() {
                   CSS.
                 </li>
               </p>
-              <p className="text-2xl p-12 pl-6 md:pl-12 dark:text-slate-400  text-[#011425] font-semibold sm:p-6 sm:mb-0">
+              <p className="text-lg p-3  dark:text-slate-400  text-[#011425] font-semibold sm:p-6 sm:mb-0">
                 7. Netflix Clone:
                 <li className="font-normal pt-3">
                   The Netflix Clone is a sophisticated project that emulates the
@@ -352,7 +352,7 @@ function Projects() {
         name="About"
       >
         <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full ">
-          <div className="pb-0 mt-28 sm:mt-28 sm:p-0 ">
+          <div className="pb-0 mt-0 sm:mt-28 sm:p-0 ">
             <p className="text-center underline font-medium dark:text-gray-300">
               Contact Me
             </p>
