@@ -106,11 +106,11 @@ function Experience() {
         name="About"
       >
         <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full ">
-          <div className="pb-0 mt-28 sm:mt-28 sm:p-0 ">
-            <div className="p-6 sm-p-0">
-              <p className="text-[#242424] dark:text-gray-300 text-4xl ml-2 font-medium inline ">
+          <div className="pb-0 mt-20 sm:mt-28 sm:p-0 ">
+            <div className="p-4 sm-p-0">
+              <p className="text-[#242424] dark:text-gray-300 text-3xl ml-2 font-medium inline lg:text-4xl">
                 Educational Background :
-                <p className="text-gray-500 p-4 text-xl flex items-start font-normal">
+                <p className="text-gray-800 dark:text-slate-400 p-2 text-lg flex items-start font-normal">
                   <span>
                     <HiArrowNarrowRight
                       style={{ fontSize: "30px", paddingRight: "6px" }}
@@ -120,7 +120,7 @@ function Experience() {
                   provided me with a solid foundation in Information Technology,
                   complementing my passion for Web Development."
                 </p>
-                <p className="text-gray-500 p-4 text-xl flex items-start font-normal">
+                <p className="text-gray-800 dark:text-slate-400 p-2 text-lg flex items-start font-normal">
                   <span>
                     <HiArrowNarrowRight
                       style={{ fontSize: "30px", paddingRight: "6px" }}
@@ -131,9 +131,49 @@ function Experience() {
                   which I've further applied in practical projects."
                 </p>
               </p>
-              <p className="text-[#242424] dark:text-gray-300 text-4xl ml-2 font-medium inline  ">
+              <p className="text-[#242424] dark:text-gray-300 text-2xl ml-2 font-medium inline lg:text-4xl ">
                 Project Experience :
-                <p className="text-gray-500 p-4 text-xl flex items-start font-normal">
+                <p className="text-gray-800 dark:text-slate-400 p-2 text-lg flex items-start font-normal">
+                  <span>
+                    <HiArrowNarrowRight
+                      style={{ fontSize: "30px", paddingRight: "6px" }}
+                    />
+                  </span>
+                  Over the course of my academic career, I have developed a
+                  strong foundation in various programming languages and
+                  frameworks, which I have applied to several impactful
+                  projects. My proficiency in Java and Python has enabled me to
+                  create robust and efficient applications, such as an ATM
+                  machine and a calculator, both of which leverage complex
+                  algorithms and secure transaction handling. Additionally, I
+                  have utilized Python to develop a shopping application, which
+                  integrates seamlessly with a SQL/NoSQL database, demonstrating
+                  my ability to manage and manipulate data effectively. My
+                  experience with C programming has further honed my skills in
+                  system-level programming, allowing me to understand the
+                  intricacies of low-level operations.
+                </p>
+                <p className="text-gray-800 dark:text-slate-400 p-2 text-lg flex items-start font-normal">
+                  <span>
+                    <HiArrowNarrowRight
+                      style={{ fontSize: "30px", paddingRight: "6px" }}
+                    />
+                  </span>
+                  In the realm of web development, I have mastered HTML5, CSS3,
+                  and JavaScript, using these technologies to build dynamic and
+                  responsive web applications. My proficiency with React has
+                  been pivotal in creating interactive user interfaces for
+                  projects like the tic-tac-toe game and quote generator, where
+                  I implemented component-based architectures for enhanced
+                  functionality. I have also employed Tailwind CSS to streamline
+                  the styling process, ensuring consistency and maintainability
+                  across my projects. My cloud computing skills, bolstered by
+                  AWS and ServiceNow certifications, have empowered me to deploy
+                  and manage scalable cloud-based solutions, further
+                  demonstrating my versatility and commitment to leveraging
+                  modern technologies to solve real-world problems.
+                </p>
+                <p className="text-gray-800 dark:text-slate-400 p-2 text-lg flex items-start font-normal">
                   <span>
                     <HiArrowNarrowRight
                       style={{ fontSize: "30px", paddingRight: "6px" }}
@@ -144,7 +184,7 @@ function Experience() {
                   allowed me to apply classroom knowledge to real-world
                   scenarios."
                 </p>
-                <p className="text-gray-500 p-4 text-xl flex items-start font-normal">
+                <p className="text-gray-800 dark:text-slate-400 p-2 text-lg flex items-start font-normal">
                   <span>
                     <HiArrowNarrowRight
                       style={{ fontSize: "30px", paddingRight: "6px" }}
@@ -155,7 +195,7 @@ function Experience() {
                   understanding of web development."
                 </p>
               </p>
-              <p className="text-2xl p-12  text-[#011425] dark:text-slate-400  sm:p-6 sm:mb-0  font-normal">
+              <p className="text-2xl p-6  text-gray-800 dark:text-slate-400  sm:p-6 sm:mb-0  font-normal">
                 These are the technologies I've worked with
               </p>
             </div>
@@ -178,11 +218,11 @@ function Experience() {
         name="About"
       >
         <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full ">
-          <div className="pb-0 mt-28 sm:mt-28 sm:p-0 ">
-            <p className="text-center underline font-medium dark:text-gray-300">
+          <div className="pb-0 mt-16 sm:mt-0 sm:p-0 ">
+            <p className="px-6 underline font-medium dark:text-gray-300">
               Contact Me
             </p>
-            <div className="lg:flex lg:justify-between lg:p-20 p-10 md:flex md:justify-between md:p-14">
+            <div className="lg:flex lg:justify-between lg:p-20 p-6 md:flex md:justify-between md:p-14">
               <div className=" lg:flex-col lg:w-96 md:w-72 w-full ">
                 <p className="px-4 py-3 text-base flex items-center lg:px-6 lg:pl-0  lg:py-3 lg:flex lg:items-center font-light text-[#242424] bg-[#d7d7d7] my-7 mt-5 rounded-sm cursor-pointer">
                   <span className="pr-2 lg:px-3">
