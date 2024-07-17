@@ -57,8 +57,8 @@ function Contact() {
           <p className="text-center font-medium dark:text-[#d3d3d3] underline">
             Contact Me
           </p>
-          <div className="p-8 pb-0">
-            <h2 className="text-3xl font-medium">
+          <div className="p-3 pb-0">
+            <h2 className="text-2xl font-medium">
               Welcome to My Contact Page:
             </h2>
             <p className="text-xl p-6 font-normal">
@@ -68,22 +68,22 @@ function Contact() {
               my portfolio, I want to make it as easy as possible for you to
               reach out and connect with me.
             </p>
-            <h2 className="text-3xl font-medium">Collaborations:</h2>
-            <p className="text-xl p-6 font-normal">
+            <h2 className="text-2xl font-medium">Collaborations:</h2>
+            <p className="text-xl p-3 font-normal">
               I'm always open to exciting collaboration opportunities. Whether
               it's a joint project, partnership, or a creative endeavor, let's
               explore how we can work together to achieve something great.
               Collaboration often leads to innovative solutions and amazing
               outcomes.
             </p>
-            <h2 className="text-3xl font-medium">Just to Say Hello:</h2>
-            <p className="text-xl p-6 font-normal">
+            <h2 className="text-2xl font-medium">Just to Say Hello:</h2>
+            <p className="text-xl p-3 font-normal">
               Sometimes, it's nice to connect for the sake of connecting. If
               you'd like to strike up a conversation, share ideas, or simply
               introduce yourself, I'm all ears. Building professional
               relationships often starts with a friendly "hello."
             </p>
-            <p className="text-xl p-6 font-normal">
+            <p className="text-xl p-3 font-normal">
               <span className="flex items-center">
                 <HiArrowNarrowRight style={{ paddingRight: "5px" }} />
                 Feel free to reach out using any of the methods listed below:
