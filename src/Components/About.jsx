@@ -54,154 +54,176 @@ function About() {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full ">
         <div className="sm:flex sm:justify-center p-0 md:p-0">
-          <div className="mt-28 p-8 md:mt-52 md:p-14 ">
-            <div className="shadow-2xl dark:shadow-slate-600 rounded-lg p-3 lg:px-10 lg:py-6 mb-20">
-              <h1 className="text-orange-500 pb-6 font-medium text-2xl lg:text-3xl">
-                Name: Gubbala Jaya Kumar
-              </h1>
-              <h1 className="text-blue-500 pb-6 text-2xl lg:text-2xl font-medium ">
-                Education: Pragati Engineering College, Surampalem
-              </h1>
-              <h1 className="text-blue-500 pb-6 text-2xl lg:text-2xl font-medium">
-                Field of Study: Information Technology
-              </h1>
-              <p className="text-gray-500 p-4 text-xl font-normal ">
-                Hello, I'm Gubbala Jayakumar, a student pursuing Information
-                Technology at Pragati Engineering College in Surampalem. I'm
-                deeply passionate about web development and the world of digital
-                design.
-                <br />
-                I'm also learning Back-End Development and looking forward to be
-                a Full Stack Web Developer
-              </p>
-            </div>
-            <p className="text-gray-500 p-4 text-xl flex items-start font-normal">
+          <div className="mt-20 p-3 md:mt-30 md:p-6 ">
+            <h1 className="text-3xl">Professional Summary</h1>
+            <p className="text-gray-800 p-4 text-lg flex items-start font-normal dark:text-gray-400">
               <span>
                 <HiArrowNarrowRight
                   style={{ fontSize: "30px", paddingRight: "6px" }}
                 />
               </span>
-              My journey into the realm of web development started with a
-              fascination for creating beautiful, functional, and user-friendly
-              websites. I've been dedicated to honing my skills in frontend
-              development, and I'm currently immersed in learning the essential
-              tools of the trade, including HTML, CSS, JavaScript, React,
-              Bootstrap, and Tailwind CSS.
+              Final year student pursuing B.Tech in Information Technology at
+              Pragati Engineering College, specializing in software development
+              and cloud computing. My coursework has equipped me with a solid
+              foundation in data structures, algorithms, and software
+              engineering principles, preparing me for a career in the tech
+              industry.
             </p>
-            <p className="text-gray-500 p-4 text-xl flex items-start font-normal">
+            <p className="text-gray-800 p-4 text-lg flex items-start font-normal dark:text-gray-400">
               <span>
                 <HiArrowNarrowRight
                   style={{ fontSize: "30px", paddingRight: "6px" }}
                 />
               </span>
-              I firmly believe that the future of technology is heavily reliant
-              on seamless and responsive web applications. To that end, I'm
-              committed to mastering these frontend technologies to create
-              engaging, interactive, and visually appealing websites.
+              Certified in AWS cloud services, demonstrating expertise in cloud
+              infrastructure deployment, management, and optimization. I have
+              deployed applications using AWS EC2, S3, and RDS.
             </p>
-            <p className="text-gray-500 p-4 text-xl flex items-start font-normal">
+            <p className="text-gray-800 p-4 text-lg flex items-start font-normal dark:text-gray-400">
               <span>
                 <HiArrowNarrowRight
                   style={{ fontSize: "30px", paddingRight: "6px" }}
                 />
               </span>
-              My educational experience at Pragati Engineering College has
-              equipped me with a solid foundation in Information Technology,
-              which I'm eager to apply to real-world projects. While I'm still a
-              student, I've already completed several personal projects and
-              contributed to team projects, showcasing my skills in web
-              development.
+              ServiceNow certified, proficient in implementing IT service
+              management processes and workflows. My certification includes
+              expertise in incident management, change management, and service
+              catalog development, ensuring efficient IT service delivery.
             </p>
-            <p className="text-gray-500 p-4 text-xl flex items-start font-normal">
+            <p className="text-gray-800 p-4 text-lg flex items-start font-normal dark:text-gray-400">
               <span>
                 <HiArrowNarrowRight
                   style={{ fontSize: "30px", paddingRight: "6px" }}
                 />
               </span>
-              As a lifelong learner, I'm always exploring new trends and staying
-              up-to-date with the latest advancements in frontend development.
-              The ever-evolving nature of this field excites me, and I'm ready
-              to embrace new challenges and opportunities.
+              Experienced in front-end development with HTML5, CSS3, and
+              JavaScript, adept at creating responsive and visually appealing
+              web interfaces. I have implemented modern UI/UX designs and
+              integrated frontend components .
             </p>
-            <p className="text-gray-500 p-4 text-xl flex items-start font-normal">
+            <p className="text-gray-800 p-4 text-lg flex items-start font-normal dark:text-gray-400">
               <span>
                 <HiArrowNarrowRight
                   style={{ fontSize: "30px", paddingRight: "6px" }}
                 />
               </span>
-              If you're looking for a dedicated, emerging web developer to
-              collaborate on projects or discuss web development trends, I'd
-              love to connect with you. Feel free to reach out, and let's embark
-              on a journey of innovation together.
+              Participated in hackathons and coding competitions, fostering
+              problem-solving skills and teamwork in high-pressure environments.
+              I have won awards for developing innovative solutions and enjoy
+              the challenge of creating prototypes within limited time frames.
             </p>
+            <p className="text-gray-800 p-4 text-lg flex items-start font-normal dark:text-gray-400">
+              <span>
+                <HiArrowNarrowRight
+                  style={{ fontSize: "30px", paddingRight: "6px" }}
+                />
+              </span>
+              Proficient in object-oriented programming languages such as Java
+              and Python, with hands-on experience in developing scalable
+              applications. I have implemented solutions ranging from backend
+              services to data processing scripts, focusing on efficiency,
+              reliability, and maintainability.
+            </p>
+            <p className="text-gray-800 p-4 text-lg flex items-start font-normal dark:text-gray-400">
+              <span>
+                <HiArrowNarrowRight
+                  style={{ fontSize: "30px", paddingRight: "6px" }}
+                />
+              </span>
+              Goal-oriented professional with a passion for innovation, seeking
+              opportunities to apply technical expertise to real-world
+              challenges and drive organizational growth. I am eager to
+              contribute to dynamic teams where I can leverage my skills to
+              create impactful solutions and achieve shared goals.
+            </p>
+            <p className="text-gray-800 p-4 text-lg flex items-start font-normal dark:text-gray-400">
+              <span>
+                <HiArrowNarrowRight
+                  style={{ fontSize: "30px", paddingRight: "6px" }}
+                />
+              </span>
+              Check Out My Resume
+            </p>
+            <button className="text-xl px-6 py-3 ml-10 bg-[#242424] text-white rounded ">
+              <a
+                href="https://drive.google.com/file/d/14IOl5yo5wp5vBX8iUHq49X8Dhz0a_iBg/view?usp=drive_link"
+                target="_blank"
+              >
+                Resume
+              </a>
+            </button>
           </div>
         </div>
-        <div className=" mt-12 mb-10 p-8 md:mt-14  ">
-          <h1 className="text-orange-500 p-4 font-medium">Education</h1>
+        <div className=" mt-3 mb-0 p-4 md:mt-14  ">
+          <h1 className="black p-2 font-medium text-3xl">Education Details</h1>
           <div className="flex flex-col justify-center md:flex-row md:grid grid-cols-3">
-            <div className="p-10 md:p-4 w-full">
+            <div className="p-2 md:p-4 w-full">
               <div className="shadow-2xl shadow-gray-300 dark:shadow-slate-700 rounded-md p-8 lg:p-4">
                 <h1 className="text-lg pb-3 font-medium">
                   Pragati Engineering College
                 </h1>
                 <div className="p-3 font-normal">
-                  <h2 className="text-base text-gray-500 pb-2">
+                  <h2 className="text-base text-gray-800 pb-2 dark:text-gray-400">
                     Degree: BTech
                   </h2>
-                  <h3 className="text-base text-gray-500 pb-2">
+                  <h3 className="text-base text-gray-800 pb-2 dark:text-gray-400">
                     Branch: Information Technology
                   </h3>
-                  <h4 className="text-base text-gray-500 pb-2">
+                  <h4 className="text-base text-gray-800 pb-2 dark:text-gray-400 ">
                     Current Cgpa: 8.0
                   </h4>
-                  <h4 className="text-base text-gray-500 pb-2">
+                  <h4 className="text-base text-gray-800 pb-2 dark:text-gray-400">
                     Year of Passing: 2022-2025
                   </h4>
-                  <h5 className="text-base md:text-xs text-gray-500 pb-2">
+                  <h5 className="text-base md:text-xs text-gray-800 pb-2 dark:text-gray-400">
                     Surampalem,Kakinada,Andhra Pradesh
                   </h5>
                 </div>
               </div>
             </div>
-            <div className="p-10 md:p-4 w-full">
+            <div className="p-2 md:p-4 w-full">
               <div className="shadow-2xl shadow-gray-300 dark:shadow-slate-700 rounded-md p-8 lg:p-4">
                 <h1 className="text-lg pb-3 font-medium">
                   BVC College Of Engineering
                 </h1>
                 <div className="p-3 font-normal">
-                  <h2 className="text-base text-gray-500 pb-2">
+                  <h2 className="text-base text-gray-800 pb-2 dark:text-gray-400">
                     Degree: Diploma
                   </h2>
-                  <h3 className="text-base text-gray-500 pb-2">
+                  <h3 className="text-base text-gray-800 pb-2 dark:text-gray-400">
                     Branch: Mechanical Engineering
                   </h3>
-                  <h4 className="text-base text-gray-500 pb-2">
+                  <h4 className="text-base text-gray-800 pb-2 dark:text-gray-400">
                     Percentage: 89.7%
                   </h4>
-                  <h4 className="text-base text-gray-500 pb-2">
+                  <h4 className="text-base text-gray-800 pb-2 dark:text-gray-400">
                     Year of Passing: 2021-2022
                   </h4>
-                  <h5 className="text-base md:text-xs text-gray-500 pb-2">
+                  <h5 className="text-base md:text-xs text-gray-800 pb-2 dark:text-gray-400">
                     Palacharla,Rajahmundry,Andhra Pradesh
                   </h5>
                 </div>
               </div>
             </div>
-            <div className="p-10 md:p-4 w-full">
+            <div className="p-2 md:p-4 w-full">
               <div className="shadow-2xl shadow-gray-300 dark:shadow-slate-700 rounded-md p-8 lg:p-4">
                 <h1 className="text-lg pb-3 font-medium">
                   Bhasyham English Medium School
                 </h1>
                 <div className="p-3 font-normal">
-                  <h2 className="text-base text-gray-500 pb-2">Board : SCC</h2>
-                  <h3 className="text-base text-gray-500 pb-2">
+                  <h2 className="text-base text-gray-800 pb-2 dark:text-gray-400">
+                    Board : SCC
+                  </h2>
+                  <h3 className="text-base text-gray-800 pb-2 dark:text-gray-400">
                     Study : 10th Class (Tenth Class)
                   </h3>
-                  <h4 className="text-base text-gray-500 pb-2">Gpa: 9.7</h4>
-                  <h4 className="text-base text-gray-500 pb-2">
+                  <h4 className="text-base text-gray-800 pb-2 dark:text-gray-400">
+                    Gpa: 9.7
+                  </h4>
+                  <h4 className="text-base text-gray-800 pb-2 dark:text-gray-400">
                     Year of Passing: 2020-2021
                   </h4>
-                  <h5 className="text-base md:text-xs text-gray-500 pb-2">
+                  <h5 className="text-base md:text-xs text-gray-800 pb-2 dark:text-gray-400">
                     Bommuru,Rajahmundry,Andhra Pradesh
                   </h5>
                 </div>
@@ -214,7 +236,7 @@ function About() {
           name="About"
         >
           <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full ">
-            <div className="pb-0 mt-28 sm:mt-28 sm:p-0 ">
+            <div className="pb-0 mt-0 sm:mt-28 sm:p-0 ">
               <p className="text-center underline font-medium">Contact Me</p>
               <div className="lg:flex lg:justify-between lg:p-20 p-10 md:flex md:justify-between md:p-14">
                 <div className=" lg:flex-col lg:w-96 md:w-72 w-full ">
