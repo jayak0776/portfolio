@@ -1,6 +1,4 @@
 import React, { useRef, useState } from "react";
-import { motion } from "framer-motion";
-import { fadeIn } from "../Varient";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import Mypic from "../assests/Online resume-pana (3).png";
 import css from "../assests/css.png";
