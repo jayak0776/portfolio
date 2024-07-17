@@ -13,7 +13,7 @@ function SocialMediaLinks() {
           LinkedIn <AiFillLinkedin size={30} />
         </>
       ),
-      herf: "http://www.linkedin.com/in/jayakumargubbala",
+      href: "http://www.linkedin.com/in/jayakumargubbala",
       style: "rounded-tr-md",
     },
     {
@@ -24,7 +24,7 @@ function SocialMediaLinks() {
           <FaGithub size={30} />
         </>
       ),
-      herf: "https://github.com/jayak0776",
+      href: "https://github.com/jayak0776",
     },
     {
       id: 3,
@@ -34,7 +34,7 @@ function SocialMediaLinks() {
           <HiOutlineMail size={30} />
         </>
       ),
-      herf: "mailto:jayak0776@gmail.com",
+      href: "mailto:jayak0776@gmail.com",
     },
     {
       id: 4,
@@ -45,15 +45,15 @@ function SocialMediaLinks() {
         </>
       ),
       style: "rounded-br-md",
-      href: "./22A35A1202.Resume.pdf",
-      download: "22A35A1202.Resume.pdf",
+      href: "https://drive.google.com/file/d/14IOl5yo5wp5vBX8iUHq49X8Dhz0a_iBg/view?usp=drive_link",
+      download: "./JAYAKUMAR_RESUME.pdf",
     },
   ];
 
   return (
     <div className="hidden flex-col top-[35%] left-0 fixed lg:flex">
       <ul>
-        {links.map(({ id, child, style, herf, download }) => (
+        {links.map(({ id, child, style, href, download }) => (
           <li
             key={id}
             className={
@@ -63,7 +63,7 @@ function SocialMediaLinks() {
             }
           >
             <a
-              href={herf ? herf : "/"}
+              href={href ? href : "/"}
               className="flex justify-between items-center w-full text-white dark:text-slate-400"
               download={download}
               target="_blank"
